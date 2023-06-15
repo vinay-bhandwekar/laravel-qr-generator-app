@@ -1,0 +1,46 @@
+<?php
+
+return [
+
+    "qr_form"=>[
+        "email"=>["label"=>"Email","placeholder"=>"Please enter your email!"],
+        "title"=>["label"=>"Title","placeholder"=>"Name of the generated QR"],
+        "id"=>["label"=>"UUID"],
+        "type"=>["label"=>"Type"],
+        "resource"=>["label"=>"Resource"],
+        "is_locked"=>["label"=>'Is locked?'],
+        "owner"=>["label"=>'Owner'],
+        "owner_details"=>["label"=>'Owner details'],
+        "access_count"=>["label"=>'Access count']
+    ],
+    "dynamic"=>"Dynamic",
+    "resource"=>"Resource",
+    "remote"=>"Remote",
+    "redirection_url"=>"Redirection URL",
+    "data_array"=>"Data array",
+    "remote_query"=>"Remote query",
+    "true"=>"True",
+    "false"=>"False",
+    "user"=>"User",
+    "pincode"=>"Pincode",
+    "email"=>"Email Address",
+    "save"=>"Save & Generate QR",
+    "login_details_description"=>"Your login details:",
+    "username"=>"Username",
+    "password"=>"Password",
+    "information"=>"Your Information",
+    "home_page_title"=>"Generate Your Qr Code!",
+    "update_page_title"=>"Update Your Qr Code!",
+    "update"=>"Update & Generate QR",
+    "edit"=>"Edit",
+    "delete"=>"Delete",
+    "login"=>"Log in",
+    "logout"=>"Logout",
+    "dashboard"=>"Dashboard",
+    "update_success_message"=>"Your Qr successfully updated!",
+    "delete_success_message"=>"Your Qr data successfully removed!",
+    "insert_success_message"=>"Your Qr successfully generated!",
+    "invalid_uuid"=>"Invalid uuid!",
+    "insert_success_message"=>"Your Qr successfully generated!",
+    "delete_confirm_message"=>"Are you sure want to delete this customer?"
+];
